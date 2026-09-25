@@ -1,0 +1,38 @@
+{
+  "Name": "Personal VPN",
+  "GlobalProxy": "false",
+  "UseChunkFiles": "false",
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://cdn.jsdelivr.net/gh/alexhenky-hash/vpn-list@698001d0fac6c2fff904d4d1e1bfd8f115adfd76/dist/geoip.dat",
+  "Geositeurl": "https://cdn.jsdelivr.net/gh/alexhenky-hash/vpn-list@698001d0fac6c2fff904d4d1e1bfd8f115adfd76/dist/geosite.dat",
+  "LastUpdated": "1790318937",
+  "DnsHosts": {},
+  "RouteOrder": "block-proxy-direct",
+  "DirectSites": [],
+  "DirectIp": [
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "169.254.0.0/16",
+    "100.64.0.0/10",
+    "fc00::/7",
+    "fe80::/10"
+  ],
+  "ProxySites": [
+    "geosite:personal"
+  ],
+  "ProxyIp": [
+    "geoip:personal"
+  ],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
+}
