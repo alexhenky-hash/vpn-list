@@ -1,0 +1,130 @@
+# ============================================================
+# ЕДИНЫЙ СПИСОК РЕСУРСОВ ДЛЯ VPN
+# Правьте только этот файл. После сохранения GitHub сам соберёт
+# списки для роутера (AWG-Manager), Happ и INCY.
+#
+# Формат: одна запись на строку, комментарии начинаются с #
+#   example.com          — домен и все его поддомены
+#   full:api.example.com — только этот точный адрес (для Happ/INCY)
+#   1.2.3.0/24           — IP-подсеть
+# ============================================================
+
+# --- DNS Google через VPN (нужно роутеру для правильных ответов DNS) ---
+8.8.8.8/32
+8.8.4.4/32
+
+# --- Telegram (подсети) ---
+91.108.4.0/22
+91.108.8.0/22
+91.108.12.0/22
+91.108.16.0/22
+91.108.20.0/22
+91.108.56.0/22
+91.105.192.0/23
+149.154.160.0/20
+185.76.151.0/24
+
+# --- Google (подсети) ---
+64.233.160.0/19
+74.125.0.0/16
+142.250.0.0/15
+172.217.0.0/16
+209.85.128.0/17
+216.58.0.0/16
+173.194.0.0/16
+172.253.0.0/16
+108.177.0.0/17
+108.170.192.0/18
+192.178.0.0/15
+216.239.32.0/19
+66.102.0.0/20
+72.14.192.0/18
+
+# --- Telegram ---
+t.me
+telegram.org
+telegram.me
+telegram.dog
+telegra.ph
+tdesktop.com
+telegram-cdn.org
+cdn-telegram.org
+telesco.pe
+
+# --- YouTube / Google / Meet ---
+youtube.com
+youtu.be
+youtube-nocookie.com
+googlevideo.com
+ytimg.com
+ggpht.com
+googleapis.com
+google.com
+gstatic.com
+turns.goog
+
+# --- ChatGPT / Claude ---
+chatgpt.com
+openai.com
+oaistatic.com
+oaiusercontent.com
+claude.ai
+anthropic.com
+sentry.io
+
+# --- Meta: Instagram / Facebook / WhatsApp ---
+instagram.com
+cdninstagram.com
+facebook.com
+fbcdn.net
+fbsbx.com
+messenger.com
+whatsapp.com
+whatsapp.net
+wa.me
+
+# --- Рабочие программы: Vectorworks, Chaos, Autodesk, Veras (+ их CDN-псевдонимы) ---
+vectorworks.net
+chaos.com
+autodesk.com
+evolvelab.io
+invisionservice.com
+invisionsetup.com
+api-load-balancer-public-18656393.us-east-1.elb.amazonaws.com
+cloud.vectorworks.net.cdn.cloudflare.net
+djd9gbobxcgw8.cloudfront.net
+pingone.eu
+chaos4812.zendesk.com
+web-autodesk.edgekey.net
+e17686.dsca.akamaiedge.net
+accounts.autodesk.com.cdn.cloudflare.net
+
+# --- Dropbox / Microsoft ---
+dropbox.com
+dropboxapi.com
+dropboxstatic.com
+dropboxusercontent.com
+microsoft.com
+office.com
+office365.com
+onedrive.live.com
+login.live.com
+login.microsoftonline.com
+
+# --- monday.com ---
+monday.com
+monday-1.com
+monday-storage.com
+mondaycdn.com
+mondayapps.com
+
+# --- Bosch Home Connect ---
+home-connect.com
+homeconnectegw.com
+singlekey-id.com
+bosch-home.com
+
+# --- Разное ---
+speedtest.net
+nanobanana.io
+fos-lighting.eu
