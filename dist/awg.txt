@@ -69,6 +69,7 @@ bosch-home.com
 speedtest.net
 nanobanana.io
 fos-lighting.eu
+wizzair.com
 8.8.8.8/32
 8.8.4.4/32
 91.108.4.0/22
