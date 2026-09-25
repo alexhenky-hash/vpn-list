@@ -1,0 +1,61 @@
+name: Сборка списков VPN
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "vpn.txt"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-lists
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Настройка git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Сборка списков и geo-файлов
+        run: python3 scripts/build.py data
+
+      - name: Коммит geo-файлов
+        run: |
+          git add dist
+          if git diff --cached --quiet; then
+            echo "Списки не изменились"
+          else
+            git commit -m "Сборка списков из vpn.txt"
+            git push
+          fi
+
+      - name: Профили Happ / INCY (ссылка на коммит с geo-файлами)
+        run: |
+          REF=$(git rev-parse HEAD)
+          python3 scripts/build.py profiles --repo "$GITHUB_REPOSITORY" --ref "$REF"
+          git add dist
+          if ! git diff --cached --quiet; then
+            git commit -m "Профили Happ/INCY для ${REF:0:7}"
+            git push
+          fi
+
+      - name: Сброс кэша jsDelivr
+        run: |
+          for f in awg.txt domains.txt cidr.txt geosite.dat geosite.dat.sha256 geoip.dat geoip.dat.sha256 happ-deeplink.txt incy-deeplink.txt; do
+            curl -s -o /dev/null -w "$f %{http_code}\n" "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/dist/$f" || true
+          done
