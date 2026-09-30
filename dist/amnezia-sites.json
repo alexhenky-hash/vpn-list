@@ -1,0 +1,582 @@
+[
+  {
+    "hostname": "8.8.8.8/32",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "8.8.4.4/32",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "91.108.4.0/22",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "91.108.8.0/22",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "91.108.12.0/22",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "91.108.16.0/22",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "91.108.20.0/22",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "91.108.56.0/22",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "91.105.192.0/23",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "149.154.160.0/20",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "185.76.151.0/24",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "64.233.160.0/19",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "74.125.0.0/16",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "142.250.0.0/15",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "172.217.0.0/16",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "209.85.128.0/17",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "216.58.0.0/16",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "173.194.0.0/16",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "172.253.0.0/16",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "108.177.0.0/17",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "108.170.192.0/18",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "192.178.0.0/15",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "216.239.32.0/19",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "66.102.0.0/20",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "72.14.192.0/18",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "64.15.112.0/20",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "216.73.80.0/20",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "199.36.154.0/23",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "t.me",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "telegram.org",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "telegram.me",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "telegram.dog",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "telegra.ph",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "tdesktop.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "telegram-cdn.org",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "cdn-telegram.org",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "telesco.pe",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "youtube.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "youtu.be",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "youtube-nocookie.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "googlevideo.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "ytimg.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "ggpht.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "googleapis.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "google.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "gstatic.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "turns.goog",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "chatgpt.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "openai.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "oaistatic.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "oaiusercontent.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "claude.ai",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "anthropic.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "sentry.io",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "instagram.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "cdninstagram.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "facebook.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "fbcdn.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "fbsbx.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "messenger.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "whatsapp.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "whatsapp.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "wa.me",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "vectorworks.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "chaos.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "autodesk.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "evolvelab.io",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "invisionservice.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "invisionsetup.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "api-load-balancer-public-18656393.us-east-1.elb.amazonaws.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "cloud.vectorworks.net.cdn.cloudflare.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "djd9gbobxcgw8.cloudfront.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "pingone.eu",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "chaos4812.zendesk.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "web-autodesk.edgekey.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "e17686.dsca.akamaiedge.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "accounts.autodesk.com.cdn.cloudflare.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "dropbox.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "dropboxapi.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "dropboxstatic.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "dropboxusercontent.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "microsoft.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "office.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "office365.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "onedrive.live.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "login.live.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "login.microsoftonline.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "monday.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "monday-1.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "monday-storage.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "mondaycdn.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "mondayapps.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "home-connect.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "homeconnectegw.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "singlekey-id.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "bosch-home.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "speedtest.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "nanobanana.io",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "fos-lighting.eu",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "wizzair.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "coldfilm.ink",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "gmail.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "googlemail.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "googleusercontent.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "google.ru",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "gvt1.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "gvt2.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "gvt3.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "withgoogle.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "googletagmanager.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "google-analytics.com",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "recaptcha.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "1e100.net",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "g.co",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "goo.gl",
+    "ip": "",
+    "ips": []
+  },
+  {
+    "hostname": "googlehosted.com",
+    "ip": "",
+    "ips": []
+  }
+]
