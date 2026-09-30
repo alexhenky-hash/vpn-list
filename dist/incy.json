@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://cdn.jsdelivr.net/gh/alexhenky-hash/vpn-list@main/dist/geoip.dat",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/alexhenky-hash/vpn-list@main/dist/geosite.dat",
-  "LastUpdated": "1790537487",
+  "LastUpdated": "1790757894",
   "DnsHosts": {},
   "RouteOrder": "block-proxy-direct",
   "DirectSites": [],
