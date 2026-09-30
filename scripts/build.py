@@ -127,6 +127,10 @@ def stage_data():
     write("domains.txt", "\n".join(plain) + "\n")
     write("cidr.txt", "\n".join(map(str, cidrs)) + "\n")
     write("awg.txt", "\n".join(plain + [str(c) for c in cidrs]) + "\n")
+    # AmneziaVPN: «Раздельное туннелирование» -> ⋮ -> Импорт (формат приложения)
+    amn = [{"hostname": str(c), "ip": "", "ips": []} for c in cidrs]
+    amn += [{"hostname": v, "ip": "", "ips": []} for k, v in domains if k in ("domain", "full")]
+    write("amnezia-sites.json", json.dumps(amn, ensure_ascii=False, indent=2) + "\n")
     for name, data in (("geosite.dat", geosite_dat(domains)), ("geoip.dat", geoip_dat(cidrs))):
         write(name, data)
         write(name + ".sha256", hashlib.sha256(data).hexdigest())
