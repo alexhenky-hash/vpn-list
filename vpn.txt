@@ -130,3 +130,24 @@ nanobanana.io
 fos-lighting.eu
 wizzair.com
 coldfilm.ink
+
+
+# --- Google: аккаунт, почта, Meet (дополнение) ---
+gmail.com
+googlemail.com
+googleusercontent.com
+google.ru
+gvt1.com
+gvt2.com
+gvt3.com
+withgoogle.com
+googletagmanager.com
+google-analytics.com
+recaptcha.net
+1e100.net
+g.co
+goo.gl
+googlehosted.com
+64.15.112.0/20
+216.73.80.0/20
+199.36.154.0/23
