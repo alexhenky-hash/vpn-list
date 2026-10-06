@@ -87,3 +87,4 @@ recaptcha.net
 g.co
 goo.gl
 googlehosted.com
+cdnjs.cloudflare.com
