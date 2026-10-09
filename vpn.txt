@@ -155,3 +155,12 @@ googlehosted.com
 
 # --- Общие CDN (без них страницы виснут при загрузке) ---
 cdnjs.cloudflare.com
+
+# --- SketchUp / Trimble (+ их CDN-псевдонимы) ---
+sketchup.com
+trimble.com
+d3t46qho4iup9j.cloudfront.net
+d2hnehvuxk9ljj.cloudfront.net
+d29ckrvjgc93k2.cloudfront.net
+d3gw2jtbhaqzoq.cloudfront.net
+trimble-creative-strategy.netlifyglobalcdn.com
