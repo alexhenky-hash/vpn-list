@@ -105,7 +105,6 @@ messenger.com
 whatsapp.com
 whatsapp.net
 wa.me
-linkedin.com
 
 # --- Рабочие программы: Vectorworks, Chaos, Autodesk, Veras (+ их CDN-псевдонимы) ---
 vectorworks.net
